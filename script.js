@@ -8,4 +8,4 @@ console.log(
   `first name: ${firstName} , last name: ${lastName} , age:  ${age} , admin: ${admin}`
 );
 
-// time 00-45-54
+// time 00-45-54-
