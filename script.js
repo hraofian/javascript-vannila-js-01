@@ -1,13 +1,13 @@
 
 
-function sum(name, age){
-return console.log(`hello ${name} , you are ${age} years old`)
+function square(number){
+  let resualt = number * number
+  return console.log("result is = " , resualt)
 }
 
-
-sum("ali", 20)
-console.log(resualt)
-
+square(20)
+console.log(typeof(square(10)))
 
 
-// time 01-15-00-
+
+// time 01-19-00-
