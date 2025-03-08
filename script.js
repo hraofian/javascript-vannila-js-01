@@ -1,8 +1,9 @@
-let a = true;
-let b = false;
-let c = true;
-let d = false;
-let e = true;
-console.log((a && b && c) || (d && e));
+const person = {name: "hadi" , age:27}
+const colors = ["red" , "blue", "yellow"]
+// for (let index in colors)
+//     console.log(colors[index])
 
-//1-44-53
+for (let color of colors)
+    console.log(color)
+//2-46-53
+
