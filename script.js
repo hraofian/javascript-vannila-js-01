@@ -1,9 +1,11 @@
-const person = {name: "hadi" , age:27}
-const colors = ["red" , "blue", "yellow"]
-// for (let index in colors)
-//     console.log(colors[index])
+function createCircle(radius){
+    return{
+        radius : radius,
+        draw : function(){console.log("draw")}
+    }
+}
 
-for (let color of colors)
-    console.log(color)
-//2-46-53
+let circle1 =  createCircle(1)
+console.log(circle1)
+//2-53-00
 
